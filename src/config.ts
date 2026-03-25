@@ -10,6 +10,11 @@ export const siteConfig = {
   },
   aboutMe:
     "Étudiant en BUT2 Informatique à l'Université Paris-Saclay, je recherche une alternance de 24 mois en développement logiciel et applicatif. À l'aise en Python, C++ et Java, je développe des applications robustes avec un fort intérêt pour l'analyse de données et la résolution de problématiques concrètes. Méthodique et rigoureux, je m'adapte rapidement à un environnement technique exigeant.",
+  //availability
+  available: {
+    available: true,
+    availableFrom: "01/09/2026"
+  },
   skills: ["Python", "Java", "C++", "OCaml", "SQL", "Git", "Linux", "HTML/CSS"],
   projects: [
     {
