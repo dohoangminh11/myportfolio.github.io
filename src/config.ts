@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Do Nguyen Hoang Minh",
-  title: "Développeur logiciel — Alternance BUT2",
+  title: "Développeur logiciel en formation — Alternance BUT2/3",
   description: "Portfolio de Do Nguyen Hoang Minh, étudiant en informatique à Paris-Saclay",
   accentColor: "#043A7E",
   social: {
@@ -49,7 +49,6 @@ export const siteConfig = {
       bullets: [
         "Gestion simultanée de plusieurs postes en environnement à fort flux",
         "Rigueur, réactivité et respect strict des procédures",
-        "Travail en équipe dans un cadre exigeant, développement de l'autonomie",
       ],
     },
     {
@@ -84,7 +83,7 @@ export const siteConfig = {
     },
     {
       school: "Université Grenoble Alpes",
-      degree: "L1 Mathématiques - Informatique International",
+      degree: "L1 Mathématiques - Informatique, Parcours International",
       dateRange: "2024 - 2025",
       achievements: [
         "L1 obtenue",
