@@ -13,7 +13,6 @@ export const siteConfig = {
   //availability
   available: {
     available: true,
-    availableFrom: "01/09/2026"
   },
   skills: ["Python", "Java", "C++", "OCaml", "SQL", "Git", "Linux", "HTML/CSS"],
   projects: [
@@ -100,8 +99,8 @@ export const siteConfig = {
       dateRange: "2024",
       achievements: [
         "Mention Très Bien",
-        "Anglais C2 IELTS — 8.5/9",
       ],
     },
   ],
+  langages: ["Français — C2", "Anglais — C2 : 8.5/9 IELTS Academic", "Vietnamien — Langue Maternelle", "Espagnol — B1"],
 };

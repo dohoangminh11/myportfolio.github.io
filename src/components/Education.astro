@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from "../config";
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasLanguages = siteConfig.langages && siteConfig.langages.length > 0;
 ---
 
 {
@@ -54,6 +55,41 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             </div>
           </div>
         </div>
+
+        {/* Section Langages */}
+        {hasLanguages && (
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start mt-16">
+            <div class="lg:col-span-4">
+              <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+                Langues
+              </h2>
+              <div
+                class="w-[75px] h-[5px] mt-2 rounded-full"
+                style={`background-color: ${siteConfig.accentColor}`}
+              />
+            </div>
+
+            <div class="lg:col-span-8">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {siteConfig.langages.map((lang) => {
+                  const [langue, niveau] = lang.split(" — ");
+                  return (
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 hover:shadow-md transition-shadow duration-300 flex items-center gap-4">
+                      <div
+                        class="w-2 h-10 rounded-full flex-shrink-0"
+                        style={`background-color: ${siteConfig.accentColor}`}
+                      />
+                      <div>
+                        <p class="font-semibold text-gray-900">{langue}</p>
+                        <p class="text-sm text-gray-500">{niveau}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   )
