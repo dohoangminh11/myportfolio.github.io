@@ -20,7 +20,7 @@ export const siteConfig = {
       name: "Analyse de données sur differents footballeurs",
       description:
         "Analyse de l’historique des valeurs de marché de différents footballeurs (Base de donnees de 2004-2025, +53000 joueurs) : classements, évolutions absolues et relatives, valeurs initiale, maximale et récente.",
-      link: "https://dohoangminh11.github.io/personal-workspace/",
+      link: "https://footballdataviewer.streamlit.app/",
       skills: ["Python", "Pandas", "Matplotlib", "StreamLit", "Analyse de données"],
     },
     {
