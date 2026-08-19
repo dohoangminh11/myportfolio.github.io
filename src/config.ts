@@ -14,14 +14,14 @@ export const siteConfig = {
   available: {
     available: true,
   },
-  skills: ["Python", "Java", "C++", "OCaml", "SQL", "Git", "Linux", "HTML/CSS", "React", "Tailwind CSS"],
+  skills: ["Python", "Pandas", "Java", "C++", "SQL", "Linux"],
   projects: [
     {
-      name: "Workspace personnel",
+      name: "Analyse de données sur differents footballeurs",
       description:
-        "Espace de travail de productivité pour développeur conçu avec React et Vite. Intègre un gestionnaire de tâches persistant, des raccourcis clavier globaux, un widget météo en temps réel, un bloc-notes, et un sélecteur de thèmes avec des transitions d'affichage fluides (API View Transition).",
+        "Analyse de l’historique des valeurs de marché de différents footballeurs (Base de donnees de 2004-2025, +53000 joueurs) : classements, évolutions absolues et relatives, valeurs initiale, maximale et récente.",
       link: "https://dohoangminh11.github.io/personal-workspace/",
-      skills: ["React", "Vite", "Tailwind CSS"],
+      skills: ["Python", "Pandas", "Matplotlib", "StreamLit", "Analyse de données"],
     },
     {
       name: "Jeu de labyrinthe Python",
